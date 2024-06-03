@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: hsl(20, 100%, 30%);
+    padding: 2rem;
+    min-height: 100px;
+    margin-bottom: 4rem;
+}
+.draggable-items{
+    background-color: hsl(20, 100%, 70%);
+    padding: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    cursor: grab;
+}
+.dragging{
+    opacity: 0.6;
+}
